@@ -1,13 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="led_select" id="107" inline="true" x="1" y="1">
-    <field name="ACTION">ON</field>
-    <value name="LED">
-      <block type="math_number" id="129">
-        <field name="NUM">5</field>
+  <block type="procedures_defreturn" id="160" inline="false" x="-76" y="47">
+    <mutation></mutation>
+    <field name="NAME">do something</field>
+    <statement name="STACK">
+      <block type="led_select" id="107" inline="true">
+        <field name="ACTION">ON</field>
+        <value name="LED">
+          <block type="math_number" id="129">
+            <field name="NUM">5</field>
+          </block>
+        </value>
       </block>
-    </value>
-    <next>
-      <block type="movement_forward" id="142"></block>
-    </next>
+    </statement>
   </block>
+  <block type="movement_forward" id="142" x="188" y="191"></block>
 </xml>
