@@ -6,5 +6,8 @@
         <field name="NUM">5</field>
       </block>
     </value>
+    <next>
+      <block type="movement_forward" id="142"></block>
+    </next>
   </block>
 </xml>
